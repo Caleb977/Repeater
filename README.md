@@ -17,10 +17,10 @@ int main()
    
    if(c==1){
        printf("Alright! Thank you very much\n");
-   }
-   
-   if(c==2){
+   }else if(c==2){
        printf("Current updates are been made on the software\n");
+   }else{
+       printf("Wrong Input\n");
    }
 
  puts("Thanks for your Feedback\n You can rerun the program, as many times as you want.");
